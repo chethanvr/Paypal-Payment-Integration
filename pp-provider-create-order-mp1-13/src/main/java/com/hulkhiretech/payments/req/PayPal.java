@@ -1,0 +1,14 @@
+package com.hulkhiretech.payments.req;
+
+import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+import lombok.Data;
+
+@Data
+public class PayPal {
+	@JsonProperty("experience_context")
+    private ExperienceContext experienceContext;
+
+}
